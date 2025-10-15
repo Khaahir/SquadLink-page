@@ -93,7 +93,7 @@ const HomePage: React.FC = () => {
             Stay Connected. Stay Safe.
           </h1>
           <p className="text-lg text-gray-300 leading-relaxed">
-            <span className="inline-block mr-2 px-3 py-1 rounded-full bg-gradient-to-r from-cyan-400 to-amber-500 text-gray-950 font-extrabold text-xs">NEW</span> app for families, friends, and groups to see each other's status and make sure everyone gets home safe. Tap **Find Me**, send an **Emergency** alert, or start a timed **Get Home Safe** session.
+            <span className="inline-block mr-2 px-3 py-1 rounded-full bg-gradient-to-r from-cyan-400 to-amber-500 text-gray-950 font-extrabold text-xs">NEW</span> App for families, friends, and groups to see each other's status and make sure everyone gets home safe. Tap Find Me, send an Emergency alert, or start a timed Get Home Safe session.
           </p>
           <div id="download" className="flex gap-3 mt-4">
             <a className="inline-block px-5 py-3 rounded-2xl bg-gradient-to-r from-cyan-400 to-amber-500 text-gray-950 font-extrabold shadow-lg transition-transform hover:scale-[1.02]" href="#" aria-label="Get it on the App Store">
@@ -182,7 +182,7 @@ const HomePage: React.FC = () => {
           </div>
           <div className="bg-white/5 border border-white/10 p-5 rounded-xl">
             <h3 className="text-xl font-semibold mb-2">Support & Contact</h3>
-            <p className="text-gray-300">Email: <a href="mailto:jpandpadev@gmail.com" className="text-blue-300 hover:underline">support@squadlink.app</a></p>
+            <p className="text-gray-300">Email: <a href="mailto:jpandpadev@gmail.com" className="text-blue-300 hover:underline">jpandpadev@gmail.com</a></p>
           </div>
         </div>
       </section>
