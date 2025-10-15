@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "5844ea17-bd0c-4a00-a7a5-22c29fac94eb"
+      }
+    },
+    "android": {
+      "package": "se.SquadLink"
+    }
+  }
+}
