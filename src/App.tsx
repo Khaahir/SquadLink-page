@@ -242,7 +242,7 @@ const PrivacyPage: React.FC = () => {
       <h2 className="text-2xl font-bold mt-8 mb-3">Your Choices</h2>
       <ul className="list-disc ml-5 text-gray-300 space-y-2">
         <li>Control sharing per circle and feature. Pause or limit location at any time.</li>
-        <li>Access, correct, or delete your data in the app or by emailing <a href="mailto:privacy@squadlink.app" className="text-blue-300 hover:underline">privacy@squadlink.app</a>.</li>
+        <li>Access, correct, or delete your data in the app or by emailing <a href="mailto:jpandpadev@gmail.com" className="text-blue-300 hover:underline">jpandpadev@gmail.com</a>.</li>
         <li>Opt‑out of non‑essential analytics.</li>
       </ul>
       
