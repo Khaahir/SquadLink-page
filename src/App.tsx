@@ -39,7 +39,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setPage }) => {
         onClick={(e) => { e.preventDefault(); setPage('home'); }}
         className="flex items-center gap-2 font-extrabold text-xl text-gray-200"
       >
-        <img src="/public/icon.png" alt="SquadLink icon" className="w-9 h-9 rounded-xl shadow-lg" />
+        <img src="/public/icon.png" alt="SquadLink icon" className="w-9 h-9 shadow-lg rounded-full" />
         SquadLink
       </a>
       <nav className="flex items-center text-sm sm:text-base">
@@ -107,7 +107,7 @@ const HomePage: React.FC = () => {
         </div>
         <div className="flex justify-center">
           {/* Placeholder for logo-hero image */}
-          <img src="/public/icon.png" alt="SquadLink Logo" className="w-56 h-56 rounded-full shadow-2xl shadow-cyan-500/30" />
+          <img src="/public/icon.png" alt="SquadLink Logo" className="w-56 h-56 rounded-full shadow-2xl shadow-cyan-500/30 " />
         </div>
       </main>
 
