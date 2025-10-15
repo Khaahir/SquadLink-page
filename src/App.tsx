@@ -39,7 +39,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setPage }) => {
         onClick={(e) => { e.preventDefault(); setPage('home'); }}
         className="flex items-center gap-2 font-extrabold text-xl text-gray-200"
       >
-        <img src="/assets/icon.png" alt="SquadLink icon" className="w-9 h-9 shadow-lg rounded-full" />
+        <img src="/icon.png" alt="SquadLink icon" className="w-9 h-9 shadow-lg rounded-full" />
         SquadLink
       </a>
       <nav className="flex items-center text-sm sm:text-base">
