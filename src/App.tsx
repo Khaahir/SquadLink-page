@@ -107,7 +107,7 @@ const HomePage: React.FC = () => {
         </div>
         <div className="flex justify-center">
           {/* Placeholder for logo-hero image */}
-          <img src="/public/icon.png" alt="SquadLink Logo" className="w-56 h-56 rounded-full shadow-2xl shadow-cyan-500/30 " />
+          <img src="/icon.png" alt="SquadLink Logo" className="w-56 h-56 rounded-full shadow-2xl shadow-cyan-500/30 " />
         </div>
       </main>
 
