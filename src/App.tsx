@@ -48,7 +48,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setPage }) => {
         <NavLink target="terms" label="Terms" />
         <NavLink target="safety" label="Safety" />
         <a 
-          href="#download" 
+          href="https://apps.apple.com/us/app/squadlink/id6753960395" 
           onClick={(e) => { e.preventDefault(); handleDownloadClick(); }} 
           className="ml-4 px-3 py-2 text-sm rounded-xl font-bold text-gray-950 bg-gradient-to-br from-cyan-400 to-amber-500 shadow-md hover:shadow-lg transition-shadow"
         >
@@ -96,14 +96,13 @@ const HomePage: React.FC = () => {
             <span className="inline-block mr-2 px-3 py-1 rounded-full bg-gradient-to-r from-cyan-400 to-amber-500 text-gray-950 font-extrabold text-xs">NEW</span> App for families, friends, and groups to see each other's status and make sure everyone gets home safe. Tap Find Me, send an Emergency alert, or start a timed Get Home Safe session.
           </p>
           <div id="download" className="flex gap-3 mt-4">
-            <a className="inline-block px-5 py-3 rounded-2xl bg-gradient-to-r from-cyan-400 to-amber-500 text-gray-950 font-extrabold shadow-lg transition-transform hover:scale-[1.02]" href="#" aria-label="Get it on the App Store">
+            <a className="inline-block px-5 py-3 rounded-2xl bg-gradient-to-r from-cyan-400 to-amber-500 text-gray-950 font-extrabold shadow-lg transition-transform hover:scale-[1.02]" href="https://apps.apple.com/us/app/squadlink/id6753960395" aria-label="Get it on the App Store">
                App&nbsp;Store
             </a>
-            <a className="inline-block px-5 py-3 rounded-2xl bg-gradient-to-r from-cyan-400 to-amber-500 text-gray-950 font-extrabold shadow-lg transition-transform hover:scale-[1.02]" href="#" aria-label="Get it on Google Play">
+            {/* <a className="inline-block px-5 py-3 rounded-2xl bg-gradient-to-r from-cyan-400 to-amber-500 text-gray-950 font-extrabold shadow-lg transition-transform hover:scale-[1.02]" href="#" aria-label="Get it on Google Play">
               Google&nbsp;Play
-            </a>
+            </a> */}
           </div>
-          <p className="text-gray-400 text-sm mt-2">Soon in app stores</p>
         </div>
         <div className="flex justify-center">
           {/* Placeholder for logo-hero image */}
